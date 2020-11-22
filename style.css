@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #040C14;
+}
+
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169,0.8);
+}
+
+/* MAIN */
+
+.main {    
+    font-weight: 400;
+    margin: 0px;
+    padding: 120px;
+    justify-content: center;
+    color: #edf0f1;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+#name{
+    color: #0088a9;
+}
+
+
+#startbutton {
+    margin-top: 20px;
+}
+
+/*- --- -- FOOTER ------ */
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+/* --- ICONS  */ 
+
+#facebook {
+    margin-right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+#github {
+    margin-right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+#linkedin {
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+    /* Query */
+
+    /* Extra small devices portrait phones, less than 576px */
+
+    @media (max-width: 575.98px) {
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px 2%;
+            justify-content: center;
+            
+        }
+
+        .nav-links li {
+            display: inline-block;
+            padding: 0px 0px;
+            margin: 0;
+            
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: rgba(0, 136, 169,1);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer ;
+            transition: all 0.3s ease 0s;
+        }
+
+        .main,h1,p {
+            margin: 0px;
+            padding: 50px 0px 0px 0px;
+            width: 100%;            
+        }
+    }   
+
+
+    /* / Small devices (landscape phones, 576px and up) */
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .main,h1,p {
+            margin: 0px;
+            padding: 50px 0px 0px 0px;
+            width: 100%;            
+        }
+    }
+          
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
