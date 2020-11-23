@@ -72,6 +72,13 @@ button:hover {
     
 }
 
+.character {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    height: 220px;
+    
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
