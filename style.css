@@ -178,6 +178,11 @@ p {
             padding: 50px 0px 0px 0px;
             width: 100%;            
         }
+
+        .character {
+            margin: 0;
+            padding: 0;
+        }
     }   
 
 
