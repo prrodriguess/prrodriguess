@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
 * {
@@ -7,6 +8,7 @@
     margin: 0;
     padding: 0;
     background-color: #040C14;
+    background-repeat: no-repeat;
 }
 
 
@@ -16,6 +18,10 @@ li, a, button {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+}
+
+.logo {
+    max-width: 10%;
 }
 
 header {
@@ -62,21 +68,40 @@ button:hover {
 
 /* MAIN */
 
+.body {
+    background-color:;
+}
+
+
 .main {    
     font-weight: 400;
     margin: 0px;
-    padding: 120px;
+    padding-top: 30px;
     justify-content: center;
     color: #edf0f1;
     text-align: center;
-    
 }
 
+.main-about {
+    margin: 0;
+    padding: 10px;
+    width: 50%;
+    background-color: #0088a9;
+    text-align: center;
+}
+
+
 .character {
-    margin: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
-    height: 220px;
-    
+    height: 200px;
+}
+
+.image-body {
+    padding: 20px;
+    margin: 50px;
+    display: block;
+    max-width: 400px;
 }
 
 h1 {
@@ -89,14 +114,43 @@ h1 {
     text-transform: uppercase;
 }
 
-p {
+
+.title-about {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #edf0f1;
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.about {
+    display: flex;
+    margin: 0;  
+    padding: 0;
+}
+
+.subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 15pt;
     text-transform: uppercase;
 }
-#name{
+
+.subtitle-about {
+    font-family: 'Libre Baskerville', serif;
+    color: #edf0f1;
+    padding: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#name {
     color: #0088a9;
 }
 
@@ -199,7 +253,7 @@ p {
     }
           
     
-    // Medium devices (tablets, 768px and up)
+    /*/ Medium devices (tablets, 768px and up)
     @media (min-width: 768px) and (max-width: 991.98px) { ... }
 
     // Large devices (desktops, 992px and up)
