@@ -3,12 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 
-* {
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #040C14;
     background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -69,7 +74,7 @@ button:hover {
 /* MAIN */
 
 .body {
-    background-color:;
+    
 }
 
 
@@ -159,6 +164,180 @@ h1 {
     margin-top: 20px;
 }
 
+/* START - PROJECTS STYLE */
+
+
+.containers {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+
+.containers-1 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+}
+
+.container-1 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.container-2 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.container-3 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.container-4 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:#FEAE5E;    
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:#4ad674;    
+}
+
+.overlay-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:#F65C46;    
+}
+
+.overlay-4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:#5968FC;    
+}
+
+.container-1:hover .overlay-1 {
+    opacity: 1;
+}
+
+.container-2:hover .overlay-2 {
+    opacity: 1;
+}
+.container-3:hover .overlay-3 {
+    opacity: 1;
+}
+.container-4:hover .overlay-4 {
+    opacity: 1;
+}
+
+.text-1 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+
+.text-2 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+.text-3 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+.text-4 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+
+/* END - PROJECTS STYLE */
+
+
 /*- --- -- FOOTER ------ */
 
 .footer {
@@ -167,6 +346,7 @@ h1 {
     text-align: center;
     bottom: 0;
     position: fixed;
+    
 }
 
 /* --- ICONS  */ 
@@ -203,6 +383,12 @@ h1 {
     /* Extra small devices portrait phones, less than 576px */
 
     @media (max-width: 575.98px) {
+        .body {
+            padding: 0%;
+            margin: 0%;
+            
+        }
+        
         header {
             display: flex;
             align-items: center;
@@ -238,20 +424,82 @@ h1 {
             padding: 0;
         }
 
+        .containers {
+            flex-wrap: wrap;
+            margin: 1px;
+            padding-bottom: 0px;
+            min-width: 100%;
+            display: flex;
+            
+        }
+        
+        .containers-1 {
+            flex-wrap: wrap;
+            margin: 1px;
+            padding-bottom: 0px;
+            min-width: 100%;
+            display: flex;
+            
+        }
+
+        .container-1, .container-2, .container-3, .container-4 {
+            position: relative;
+            width: 100%;
+            display: flex;
+            margin: 2px;
+            padding: 2px;
+        }
         
     }   
 
 
     /* / Small devices (landscape phones, 576px and up) */
-
-    @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
         .main,h1,p {
             margin: 0px;
             padding: 50px 0px 0px 0px;
             width: 100%;            
         }
+        .containers {
+            display: flex;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-bottom: 20px;
+            min-width: 50%;
+        }
+        
+        .containers-1 {
+            display: flex;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding-bottom: 50px;
+            min-width: 50%;
+        }
     }
-          
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .main,h1,p {
+            margin: 0px;
+            padding: 50px 0px 0px 0px;
+            width: 100%;            
+        }
+        .containers {
+            display: flex;
+            margin-left: 200px;
+            margin-right: 200px;
+            padding-bottom: 20px;
+            min-width: 50%;
+        }
+        
+        .containers-1 {
+            display: flex;
+            margin-left: 200px;
+            margin-right: 200px;
+            padding-bottom: 50px;
+            min-width: 50%;
+        }
+    }
     
     /*/ Medium devices (tablets, 768px and up)
     @media (min-width: 768px) and (max-width: 991.98px) { ... }
