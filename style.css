@@ -145,14 +145,13 @@ h1 {
     text-transform: uppercase;
 }
 
-.subtitle-about {
+.p-about {
     font-family: 'Libre Baskerville', serif;
     color: #edf0f1;
     padding: 20px;
     text-align: center;
     margin-right: auto;
-    margin-left: auto;
-    
+    margin-left: auto;    
 }
 
 #name {
@@ -382,7 +381,7 @@ h1 {
 
     /* Extra small devices portrait phones, less than 576px */
 
-    @media (max-width: 575.98px) {
+    @media (max-width: 767.98px) {
         .body {
             padding: 0%;
             margin: 0%;
@@ -400,7 +399,8 @@ h1 {
         .nav-links li {
             display: inline-block;
             padding: 0px 0px;
-            margin: 0;
+            margin: 2px;
+            width: auto;
             
         }
 
@@ -429,8 +429,7 @@ h1 {
             margin: 1px;
             padding-bottom: 0px;
             min-width: 100%;
-            display: flex;
-            
+            display: flex;            
         }
         
         .containers-1 {
@@ -438,8 +437,7 @@ h1 {
             margin: 1px;
             padding-bottom: 0px;
             min-width: 100%;
-            display: flex;
-            
+            display: flex;            
         }
 
         .container-1, .container-2, .container-3, .container-4 {
@@ -448,6 +446,94 @@ h1 {
             display: flex;
             margin: 2px;
             padding: 2px;
+        }
+
+        .about {
+            display: flex;
+            margin: 0;  
+            padding: 10px;            
+            flex-wrap: wrap;
+            min-width: 100%;
+            flex-direction: column-reverse;
+        }   
+
+        .subtitle {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            font-size: 15pt;
+            text-transform: uppercase;
+            
+        }
+        
+        .p-about {
+            font-family: 'Libre Baskerville', serif;
+            color: #edf0f1;
+            padding: 0;
+            margin-right: 10px;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        .image-body {
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            max-width: 80%;
+            
+        }
+
+        .title-about {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: #edf0f1;
+            margin: 0;
+            padding-top: 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-transform: bold;
+            padding-bottom: 5px;
+        }
+
+        .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #040C14;
+            color: white;
+            text-align: center;
+        }
+        
+        /* --- ICONS  */ 
+        
+        #facebook {
+            margin-right: 5px;
+            font-size: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
+        }
+        #github {
+            margin-right: 5px;
+            font-size: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
+        }
+        #linkedin {
+            font-size: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 50%;
+            text-align: center;
+            color: white;
         }
         
     }   
@@ -462,19 +548,27 @@ h1 {
             width: 100%;            
         }
         .containers {
-            display: flex;
-            margin-left: 100px;
-            margin-right: 100px;
-            padding-bottom: 20px;
-            min-width: 50%;
+            flex-wrap: wrap;
+            margin: 1px;
+            padding-bottom: 0px;
+            min-width: 100%;
+            display: flex;            
         }
         
         .containers-1 {
+            flex-wrap: wrap;
+            margin: 1px;
+            padding-bottom: 0px;
+            min-width: 100%;
+            display: flex;            
+        }
+
+        .container-1, .container-2, .container-3, .container-4 {
+            position: relative;
+            width: 100%;
             display: flex;
-            margin-left: 100px;
-            margin-right: 100px;
-            padding-bottom: 50px;
-            min-width: 50%;
+            margin: 2px;
+            padding: 2px;
         }
     }
 
@@ -499,6 +593,7 @@ h1 {
             padding-bottom: 50px;
             min-width: 50%;
         }
+
     }
     
     /*/ Medium devices (tablets, 768px and up)
