@@ -9,12 +9,6 @@
 
 [<img src="https://res.cloudinary.com/prrodriguess2/image/upload/v1624298497/logo_pbtjnj.png" height="75" align="center" text="center"/>](https://www.lewagon.com/)
 
-<h2 align="center">Me encontre aqui no :alien:</h2>
-
-  <a href="https://www.linkedin.com/in/paulorodriguess0295/">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Angel Santiago Jaime Zavala's LinkedIn Profile" height="30" width="30">
-  </a>
-
 <h2 align="center">My stack :man_technologist:</h2>
 
 <p align="center">Tools that I use on a daily basis, or that I've used or worked (either much or a bit) with on the past</p>
