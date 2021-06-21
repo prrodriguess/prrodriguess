@@ -7,6 +7,7 @@
 
 <h2 align="center">Education and Achievements</h2>
 <p>Graduated at Le Wagon fullstack bootcamp - Ruby, Rails, JavaScript (ES6+), PostgreSQL</p>
+
 [<img src="https://res.cloudinary.com/prrodriguess2/image/upload/v1624298497/logo_pbtjnj.png" height="75" align="center" text="center"/>](https://www.lewagon.com/)
 
 <h2 align="center">My stack :man_technologist:</h2>
