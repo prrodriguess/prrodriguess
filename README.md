@@ -1,13 +1,13 @@
 # Paulo Rodrigues
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/paulorodriguess0295/)
-[<img src="https://img.shields.io/github/followers/LeandraOliveiraS?label=follow&style=social" height="22" title="Follow me" />](https://github.com/prrodriguess) 
+[<img src="https://img.shields.io/github/followers/LeandraOliveiraS?label=follow&style=social" height="22" title="Follow me" />](https://github.com/prrodriguess)
 [![Instagram](https://img.shields.io/badge/-Instagram-c13584?style=flat&labelColor=c13584&logo=instagram&logoColor=white)](https://www.instagram.com/prrodriguess/)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:pr.rodriguessrp@gmail.com)
 
 <h2 align="center">Sobre mim</h2>
 
-[<img src="https://www.lewagon.com/" height="22"
+[<img src="https://res.cloudinary.com/prrodriguess2/image/upload/v1624298497/logo_pbtjnj.png" height="22" title="Follow me" />](https://github.com/prrodriguess)
 
 <h2 align="center">Me encontre aqui no :alien:</h2>
 
