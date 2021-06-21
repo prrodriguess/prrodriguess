@@ -1,4 +1,5 @@
 # Paulo Rodrigues
+## Full Stack Developer 👨‍💻
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/paulorodriguess0295/)
 [<img src="https://img.shields.io/github/followers/LeandraOliveiraS?label=follow&style=social" height="22" title="Follow me" />](https://github.com/prrodriguess)
