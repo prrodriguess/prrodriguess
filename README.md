@@ -7,6 +7,8 @@
 
 <h2 align="center">Sobre mim</h2>
 
+[<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lewagon.com%2F&psig=AOvVaw3P8jZEdJRxukZ1oyhpi2Ed&ust=1624384326852000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNDw5qilqfECFQAAAAAdAAAAABAD" height="22"
+
 <h2 align="center">Me encontre aqui no :alien:</h2>
 
 <p align="center">
