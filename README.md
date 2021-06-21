@@ -7,9 +7,7 @@
 
 <h2 align="center">Sobre mim</h2>
 
-<p align="center">
-  [<img src="https://res.cloudinary.com/prrodriguess2/image/upload/v1624298497/logo_pbtjnj.png" height="50"/>](https://www.lewagon.com/)
-</p>
+[<img src="https://res.cloudinary.com/prrodriguess2/image/upload/v1624298497/logo_pbtjnj.png" height="50"/>](https://www.lewagon.com/)
 
 <h2 align="center">Me encontre aqui no :alien:</h2>
 
