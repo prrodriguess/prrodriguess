@@ -2,7 +2,7 @@
 
 <h2 align="center">Sobre mim</h2>
 
-<h2 align="center">You can reach me at :alien:</h2>
+<h2 align="center">Me encontre aqui no :alien:</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/paulorodriguess0295/">
